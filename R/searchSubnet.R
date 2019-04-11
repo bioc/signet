@@ -67,7 +67,6 @@ searchSubnet <- function(pathway, scores, iterations = 1000, background) {
     bk <- background
 
     #check if list or unique pathway ===========================================
-
     if (class(pathway) == "list") {
 
         message("  Running simulated annealing...")
